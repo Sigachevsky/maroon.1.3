@@ -1,0 +1,58 @@
+.header {
+	background-image: url(../img/header/header-fone.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.header-bar {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	column-gap: 20px;
+	min-height: var(--header-height);
+}
+@import "_burger-menu";
+.header a {
+	order: -1;
+	margin-right: auto;
+}
+.header-menu-list {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 35px;
+	margin-right: 51px;
+}
+.header-menu-link {
+	height: var(--header-height);
+}
+.header-actions {
+	display: flex;
+	column-gap: 30px;
+}
+
+
+.header-banner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 48px;
+	min-height: clamp(320px, calc(100vh - var(--header-height)), 1050px);
+}
+.banner-text {
+	margin-top: 61px;
+	text-align: center;
+	h3 {
+		text-transform: uppercase;
+		font-size: 58px;
+		margin-bottom: 5px;
+	}
+	p {
+		margin-bottom: 40px;
+	}
+}
+.banner-items-link {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}

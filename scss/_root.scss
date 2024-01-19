@@ -1,0 +1,25 @@
+@import "_fonts";
+
+:root {
+	--color-dark-blue: #122947;
+	--color-gray: #B3BAC1;
+	--color-light-gray: #F8F8F6;
+	--color-light-gray-alternate: #F4F1ED;
+	--color-orange: orange;
+
+	--font-famile: 'Raleway', sans-serif;
+	--font-famile-accent: 'M PLUS 1p', sans-serif;
+
+	--font-size-link: 16px
+	--line-heght-link: 1.4;
+	--input-height: 41px;
+	--header-height: 102px;
+
+	--border: 1px solid var(--color-gray);
+
+	--text-container-width: 400px;
+
+	--container-width: 1170px;
+	--container-padding-x: 15px;
+	--transition-duration: 0.2s;
+}

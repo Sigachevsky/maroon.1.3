@@ -1,0 +1,32 @@
+/* width for tex-container */
+.text-container {
+	width: var(--text-container-width);
+	text-align: start;
+	p {
+		margin-bottom: 40px;
+	}
+}
+
+/* two settings: center, right */
+.center-for-items, .center-in-right-for-one-item {
+	display: flex;
+	align-items: center;
+}
+/* for center */
+.center-for-items { 
+	justify-content: center;
+}
+/* for right */
+.center-in-right-for-one-item {
+	justify-content: end;
+}
+.center-in-right-for-one-item div {
+	margin-right: 100px;
+}
+
+/* for background image */
+.bcg-settings {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}

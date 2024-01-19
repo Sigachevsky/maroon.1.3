@@ -1,0 +1,38 @@
+.card-container {
+  display: flex;
+  flex-wrap: nowrap; /* Отменяет перенос карточек на новую строку */
+  overflow-x: auto; /* Позволяет прокручивать карточки в горизонтальном направлении */
+  -webkit-overflow-scrolling: touch; /* Включает более плавную прокрутку на мобильных устройствах */
+  scrollbar-width: none; /* Скрывает полосу прокрутки для более современных браузеров */
+  -ms-overflow-style: none; /* Скрывает полосу прокрутки для Internet Explorer и Edge */
+}
+.card-container::-webkit-scrollbar {
+  height: 10px;
+}
+.card-container::-webkit-scrollbar-track {
+  background: rgba(192, 192, 192, 0.331);        /* цвет дорожки */
+}
+.card-container::-webkit-scrollbar-thumb {
+  background-color: rgb(128, 128, 128);    /* цвет плашки */
+  border-radius: 20px;       /* закругления плашки */
+}
+
+.card {
+  flex: 0 0 auto; /* Отменяет увеличение размера карточки */
+	height: 312px;
+  width: 230px; /* Ширина карточки товара */
+  margin-right: 30px; /* Расстояние между карточками */
+  background-color: #f2f2f2; /* Цвет фона карточки */
+  /* Другие стили карточки */
+}
+/* .slider-image {
+	height: 312px;
+  width: 230px; 
+} */
+.bcg-image-Individual-care-class {
+	background-image: url(../img/banner-Individual-care.jpg);
+}
+.main-banner-Individual-care {
+	height: 400px;
+}
+
